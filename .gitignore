@@ -12,7 +12,7 @@
 !.prettierrc
 !.prettierignore
 !.tx
-dist
+# dist
 node_modules
 src/locales/_build
 
