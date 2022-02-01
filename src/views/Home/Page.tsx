@@ -50,7 +50,7 @@ const Page: React.FC<{
               </h1>
             </span>
           </div>
-          <div>
+          <div className="home-page-hidden">
             <span className="home-page__hero__title">
               <h1>
                 <FormattedMessage defaultMessage="Enjoy Abundance" />
@@ -58,7 +58,7 @@ const Page: React.FC<{
             </span>
           </div>
         </div>
-        <div className="home-page__hero-action">
+        <div className="home-page-hidden home-page__hero-action">
           {loading && !categories ? (
             <Loader />
           ) : (

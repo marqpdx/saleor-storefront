@@ -1,5 +1,9 @@
 @import "../../../globalStyles/scss/variables.scss";
 
+.home-page-hidden {
+  display:none;
+}
+
 .home-page {
   &__hero {
     background-color: $blue-overlay;
@@ -38,6 +42,8 @@
       transform: skew(45deg);
       padding: $spacer $spacer * 3;
       margin-bottom: $spacer / 2;
+      opacity: .85;
+      max-width: 90%;
 
       @media (max-width: $small-screen) {
         padding: 0.6rem $spacer;
